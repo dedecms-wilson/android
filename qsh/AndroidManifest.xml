@@ -28,13 +28,17 @@
         
         <activity
             android:label="@string/app_name"
-            android:name=".QshActivity" >
+            android:name="com.wl.map.NavActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name="com.wl.map.PoiSearchActivity"/>
+        <activity android:name="com.wl.map.MapActivity"/>
+        <activity android:name="com.wl.map.RouteActivity"/>
     </application>
 
 </manifest>
