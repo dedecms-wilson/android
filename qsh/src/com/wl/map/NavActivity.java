@@ -29,6 +29,9 @@ public class NavActivity extends Activity {
 		case R.id.btn_route:
 			intent.setClass(this, RouteActivity.class);
 			break;
+		case R.id.btn_location:
+			intent.setClass(this, LocationActivity.class);
+			break;
 		default:
 			break;
 		}

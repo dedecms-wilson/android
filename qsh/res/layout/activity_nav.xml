@@ -24,5 +24,12 @@
         android:layout_height="wrap_content"
         android:text="公交线路"
         android:onClick="jump"/>
+    
+    <Button 
+        android:id="@+id/btn_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="定位"
+        android:onClick="jump"/>
 
 </LinearLayout>
